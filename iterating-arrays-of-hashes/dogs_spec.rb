@@ -17,7 +17,7 @@ describe Dogs do
 
   describe "#huge_dog" do
     it "returns the huge dog" do
-      expect(dogs.huge_dog).to include(:name => 'Tank')
+      expect(dogs.huge_dog).to include(name: 'Tank')
     end
   end
 
